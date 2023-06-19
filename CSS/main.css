@@ -1,0 +1,110 @@
+
+body {
+    background-color: #ad3b5f;
+    color: #242729;
+    font-size: medium;
+    line-height: 25px;
+    font-family: 'Lora', serif;
+    background-image: url(../Images/Background.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+   }
+
+header{
+       /* background-color: #d14c4c; */
+       background-color: #772240;
+       color:#FCE9ED;
+       padding:.5em;
+       text-align: center;
+       /* font-family: Georgia, "Times New Roman",serif; */
+       font-family: 'Merriweather', serif;
+   }
+
+   main{
+       padding: 1em;
+       overflow: auto;
+       /* outline:1px solid red;  */
+   }
+
+   *{box-sizing: border-box;}
+    
+   .cupcake{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+   }
+   #image{
+       margin: 1em;
+       border-radius: 3px;
+       /* outline:1px solid black;  */
+   }
+
+   #wrapper{
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px;
+    /* background-color: rgb(226, 105, 121); */
+    background-color: #FEFAFB;
+    /* outline:1px solid black; */
+    }
+
+    footer{
+        background-color: #772240;
+        padding: 1em;
+        text-align: center;
+        color:#FCE9ED;  
+    }
+
+    footer a:link{
+        color:#FCE9ED;
+    }
+
+    section{
+        /* background-color:#df2b58; */
+        padding: .5em;
+        font-size: 16px;
+        /* outline:1px solid black;  */
+    }
+
+    section h2{
+        /* background-color: #d14c4c; */
+        font-size: 1.5rem;
+        padding-left: 1.5em; 
+        color: #772240;
+        font-family: 'Merriweather', serif;
+        /* outline:1px solid black; */
+    }
+
+    section h3{
+        color: #772240;  
+        padding-left: 2em; 
+        font-family: 'Merriweather', serif;
+    }
+    
+    #description{
+        width:600px;
+    }
+
+    #ing{
+        width: 50%;
+    }
+
+    #dir{
+        width: 80%;
+    }
+
+    #recipe{
+        /* outline:1px solid blue; */
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
